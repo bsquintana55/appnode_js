@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
   res.send('Sea bienvenido a la App Express!')
 })
 
-app.get('/cliente', (req, res) => {
+app.get('/clientes', (req, res) => {
   res.send('Sea bienvenido, Cliente!')
 })
 
